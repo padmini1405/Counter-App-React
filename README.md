@@ -47,7 +47,7 @@ It helps users track their daily water intake by counting the number of glasses 
 * Add animations for better UX
 
 ## How to view
-You can access my website by visiting this [link] .Feel free to explore the content and get in touch.
+You can access my website by visiting this https://counter-app-react-gules-kappa.vercel.app/ . Please feel free to explore the content and get in touch with me.
 
 ## Conclusion
 
@@ -55,6 +55,3 @@ This project demonstrates how to use **React useState** for managing state and u
 
 
 👩‍💻 Developed by Padmini K
-
-
-⭐ If you like this project, don't forget to star the repository!
