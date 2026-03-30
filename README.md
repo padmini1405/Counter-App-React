@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Daily Water Tracker (React Counter App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The **Daily Water Tracker** is a simple React application built using the **useState hook**.
+It helps users track their daily water intake by counting the number of glasses consumed.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* ➕ Increment water count
+* ➖ Decrement water count (cannot go below 0)
+* 🔄 Reset counter to zero
+* ⚠️ Shows a message when the minimum limit is reached
+* 🎯 Displays goal completion message
+  
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React (Functional Components)
+* useState Hook
+* HTML5
+* CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How It Works
 
-### `npm test`
+* The counter starts at **0**
+* Each click on ➕ increases the count
+* Each click on ➖ decreases the count (not below 0)
+* Reset button sets the count back to **0**
+* Messages update based on the count:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * 0 → "Minimum limit reached."
+  * Below goal → "Keep going"
+  * Goal reached → "Goal reached"
 
-### `npm run build`
+## UI Highlights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Clean and responsive design
+* Centered card layout
+* Gradient background
+* Interactive buttons with hover effects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Enhancements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Add daily hydration goal customization
+* Include progress bar
+* Store data using local storage
+* Add animations for better UX
 
-### `npm run eject`
+## How to view
+You can access my website by visiting this [link] .Feel free to explore the content and get in touch.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Conclusion
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project demonstrates how to use **React useState** for managing state and updating UI dynamically, simply and practically.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👩‍💻 Developed by Padmini K
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ If you like this project, don't forget to star the repository!
