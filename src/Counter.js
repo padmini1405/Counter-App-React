@@ -22,7 +22,7 @@ function Counter() {
             <div className="card">
                 <h1 className="title"><i class="fa-solid fa-droplet" style={{color: "#75CFFF"}}></i> Water Tracker</h1>
                 <h2 className="count">{count}</h2>
-                <p className="label">Glass of Water Consumed Today</p> 
+                <p className="label">Glasses of Water Consumed Today</p> 
 
                 <div className="buttons">
                     <button onClick={increment}><i class="fa-solid fa-plus" style={{color: "rgb(236, 235, 240)"}}></i></button>
